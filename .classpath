@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/filters-2.0.235.jar"/>
+	<classpathentry kind="lib" path="dist/lib/fontbox-2.0.29.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jbcrypt-0.4.jar"/>
+	<classpathentry kind="lib" path="dist/lib/pdfbox-2.0.29.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swing-worker-1.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swingx-1.6.1.jar"/>
+	<classpathentry kind="lib" path="dist/SistemaVentas.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/filters-2.0.235.jar"/>
+	<classpathentry kind="lib" path="lib/fontbox-2.0.29.jar"/>
+	<classpathentry kind="lib" path="lib/jbcrypt-0.4.jar"/>
+	<classpathentry kind="lib" path="lib/pdfbox-2.0.29.jar"/>
+	<classpathentry kind="lib" path="lib/swing-worker-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jimmy/Downloads/sqljdbc_13.2.0.0_enu/sqljdbc_13.2/enu/jars/mssql-jdbc-13.2.0.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jimmy/Downloads/sqljdbc_13.2.0.0_enu/sqljdbc_13.2/enu/jars/mssql-jdbc-13.2.0.jre8-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jimmy/Downloads/sqljdbc_13.2.0.0_enu/sqljdbc_13.2/enu/jars/mssql-jdbc-13.2.0.jre8-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jimmy/Downloads/sqljdbc_13.2.0.0_enu/sqljdbc_13.2/enu/jars/mssql-jdbc-13.2.0.jre11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jimmy/Downloads/sqljdbc_13.2.0.0_enu/sqljdbc_13.2/enu/jars/mssql-jdbc-13.2.0.jre11-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jimmy/Downloads/sqljdbc_13.2.0.0_enu/sqljdbc_13.2/enu/jars/mssql-jdbc-13.2.0.jre11-sources.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
