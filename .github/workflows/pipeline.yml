@@ -1,0 +1,29 @@
+name: Pipeline CI/CD Java
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compilacion-pruebas-despliegue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Compilar proyecto
+        run: ant clean jar
+
+      - name: Ejecutar pruebas
+        run: ant test
+
+      - name: Despliegue simulado
+        run: echo "Despliegue exitoso"
